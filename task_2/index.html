@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas Pemweb 2</title>
+</head>
+<body>
+    <div class="form-product">
+        <h2 class="input-product">Produk Baru</h2>
+        <form action="detail-product.html" method="GET">
+            <P>
+                <label for="nama-product">Nama Produk</label><br>
+                <input type="text" name="nama_product" id="nama-product" required><br>
+            </P>
+            <P>
+                <label for="id-product">Id Produk</label><br>
+                <input type="text" name="id_product" id="id-product" required><br>
+            </P>
+            <P>
+                <label for="harga-pruduct">Harga</label><br>
+                <input type="number" name="harga_product" id="harga-pruduct" required>
+            </P>
+            <div class="button-container">
+                <button class="clear" type="reset">CLEAR</button>
+                <button class="submit" type="submit">ADD</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

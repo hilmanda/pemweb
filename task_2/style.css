@@ -1,0 +1,62 @@
+
+/* halaman index */
+.form-product{
+    width:200px;
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    margin: 0 0 0 -100px;
+    border-radius: 10px;
+    background-color: rgb(219, 216, 216);
+}
+h2.input-product{
+    text-decoration: underline;
+    padding-left: 10px;
+}
+p{
+    padding-left: 10px;
+}
+
+button{
+    border-radius: 10%;
+}
+
+.button-container{
+    position:relative;
+    margin: 10px 0 10px 10px;
+}
+button.clear{
+    background-color: rgb(255, 0, 0);
+}
+button.clear:hover{
+    background-color: rgb(255, 88, 88);
+}
+
+button.submit{
+    margin-left: 60px;
+    background-color: rgb(16, 246, 16);
+}
+button.submit:hover{
+    background-color: rgb(113, 255, 91);
+}
+
+/* halaman detail produk */
+
+.produk{
+    width: 520px;
+    position:absolute;
+    top: 20%;
+    left: 42%;
+    margin: 0 0 0 -100px;
+    border-radius: 10px;
+    background-color: rgb(219, 216, 216);
+}
+
+img{
+    border-radius: 10%;
+    padding: 10px;
+}
+h2.list-produk{
+    padding-left: 20px;
+    text-align: center;
+}
